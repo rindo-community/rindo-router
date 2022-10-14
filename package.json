@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@rindo/core": "1.8.12",
+    "lerna": "^3.0.3"
+  }
+}
