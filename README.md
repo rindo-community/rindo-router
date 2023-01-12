@@ -15,5 +15,5 @@ A simple router, inspired by React Router v4, for Rindo apps and vanilla Web Com
 </rindo-router>
 ```
 
-[npm-badge]: https://img.shields.io/npm/v/@rindo/router.svg
-[npm-badge-url]: https://www.npmjs.com/package/@rindo/router
+[npm-badge]: https://img.shields.io/npm/v/@rindo-community/router.svg
+[npm-badge-url]: https://www.npmjs.com/package/@rindo-community/router

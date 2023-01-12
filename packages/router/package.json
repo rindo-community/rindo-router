@@ -1,5 +1,5 @@
 {
-  "name": "@rindo/router",
+  "name": "@rindo-community/router",
   "version": "1.0.1",
   "description": "Rindo Router",
   "main": "dist/index.js",
@@ -13,9 +13,10 @@
   ],
   "scripts": {
     "build": "rindo build",
-    "dev": "../../node_modules/.bin/rindo build --dev --watch",
-    "release": "npm run build && np --any-branch",
+    "dev": "rindo build --dev --watch",
+    "release": "np",
     "start": "npm run dev",
+    "version": "npm run build",
     "test": "echo test"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "@rindo/state-tunnel": "^1.0.2"
   },
   "devDependencies": {
+    "@types/node": "12.0.0",
     "np": "^5.0.3"
   },
   "author": "Navify Team",
